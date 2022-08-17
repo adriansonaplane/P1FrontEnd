@@ -1,10 +1,38 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>HALLOWEENTOWN Complaint System</title>
+        <meta charset="UTF-8">
+        <title>HALLOWEENTOWN Complaint System</title>
 </head>
 <body>
+
+    <div class="header">
+        <h2>
+            Welcome to the HALLOWEENTOWN Complaint System!
+        </h2>
+    </div>
+
+    <div class="imgcontainer">
+    </div>
+
+    <div class="menu">
+        <a href="complaints.html">Report Complaint</a>
+        <a href="meetings.html">View Meetings</a>
+        <a href="account.html">Create Account</a>
+    </div>
+
+    <form typeof="submit" onclick="/script.js">
+        <div class="login">
+            <label for="uname">Username:</label>
+            <input type="text" name="uname" required><br>
+            <label for="pword">Password:</label>
+            <input type="password" name="pword" ><br>
+            <button type="submit" onsubmit="/script.js">Submit</button>
+        </div>
+    </form>
+
+    <div class="footer">
+    </div>
 
 </body>
 </html>
