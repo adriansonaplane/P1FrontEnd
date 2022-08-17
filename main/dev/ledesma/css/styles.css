@@ -1,21 +1,48 @@
+body{
+    background-color: white;
+}
 .header{
+    color: darkorange;
+    text-shadow: 0 0 5px rgba(295,105,14,1px);
+    font-family: 'Denk One', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     text-align: center;
 }
 
-h1{
-    color: darkorange;
-    text-shadow: 0 0 5px rgba(295,105,14,1);
-    font-family: 'Denk One', sans-serif;
-    font-size: 3em;
+.menu{
+    padding-top: 20px;
+    text-align: center;
+}
+.login{
+    padding-top: 20px;
+    text-align: center;
+}
+img{
+    border-radius: 32px;
+    width: 33%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-h6{
-    text-shadow: 0 0 5px rgba(0,0,0,1);
-    font-family: 'Denk One', sans-serif;
-    font-size: 1em;
+form {
+    width: 80%;
+    margin: 0 auto;
 }
 
+label, input {
+    display: inline-block;
+    width: 30%;
+    text-align: right;
+}
 
+label+input {
+    width: 30%;
+    margin: 0 30% 0 4%;
+}
+button{
+    margin-top: 3px;
 
+}
