@@ -1,0 +1,21 @@
+.header{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+h1{
+    color: darkorange;
+    text-shadow: 0 0 5px rgba(295,105,14,1);
+    font-family: 'Denk One', sans-serif;
+    font-size: 3em;
+}
+
+h6{
+    text-shadow: 0 0 5px rgba(0,0,0,1);
+    font-family: 'Denk One', sans-serif;
+    font-size: 1em;
+}
+
+
+

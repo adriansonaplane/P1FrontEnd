@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="../css/styles.css">
+<head>
+    <meta charset="UTF-8">
+    <title>HALLOWEENTOWN Report a Complaint!</title>
+</head>
+<body>
+
+  <div class="header">
+  </div>
+
+  <form typeof="submit" onsubmit="/script.js">
+  <div class="complaint">
+    <label for="category">
+      Please Select a Category:
+    </label>
+    <select name="category" class="dropdown">
+      <option value="something">Something</option>
+    </select>
+    <br>
+    <label for="description">
+      Write a brief explanation of your Complaint:
+    </label>
+    <br>
+    <textarea name="description" class="textbox" rows="12" cols="64" maxlength="500" required>
+    </textarea>
+    <br><br>
+    <button type="submit" onclick="/script.js">Submit Complaint</button>
+  </div>
+  </form>
+
+  <div class="footer">
+  </div>
+
+</body>
+</html>
