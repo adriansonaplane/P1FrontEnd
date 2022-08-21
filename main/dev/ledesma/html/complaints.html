@@ -10,12 +10,12 @@
   <div class="header">
   </div>
 
-  <form typeof="submit" onsubmit="/script.js">
+  <form>
   <div class="complaint">
     <label for="category">
       Please Select a Category:
     </label>
-    <select name="category" class="dropdown">
+    <select name="category" class="dropdown" id="category">
       <option value="something">Something</option>
     </select>
     <br>
@@ -23,15 +23,47 @@
       Write a brief explanation of your Complaint:
     </label>
     <br>
-    <textarea name="description" class="textbox" rows="12" cols="64" maxlength="500" required>
+    <textarea name="description" class="textbox" id="description" rows="12" cols="64" maxlength="500" required>
     </textarea>
     <br><br>
-    <button type="submit" onclick="/script.js">Submit Complaint</button>
+    <button>Submit</button>
   </div>
   </form>
 
   <div class="footer">
   </div>
+<script>
+  const inputCategory = document.getElementById("category");
+  const inputDesc = document.getElementById("description");
+
+
+  document.addEventListener("submit", async event =>{
+
+    event.preventDefault();
+
+    const category = inputCategory.value;
+    const description = inputDesc.value;
+
+    const complaint = {id:0, category, description};
+    console.log(complaint);
+    const response = await fetch("http://localhost:8080/complaint",{
+      method:"POST",
+      body: JSON.stringify(complaint),
+      headers: {
+        "Content-Type": "application/json"
+      }
+    });
+
+    if(response.status === 201){
+
+      alert("Successful");
+      inputCategory.value = "";
+      inputDesc.value = "";
+
+    }else{alert("Failed");}
+
+  });
+</script>
 
 </body>
 </html>
