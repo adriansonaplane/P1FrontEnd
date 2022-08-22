@@ -4,19 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <title>HALLOWEENTOWN Complaint System</title>
+    <script src="../javascript/login.js" defer></script>
 </head>
 <body>
 
     <div class="header">
     </div>
 
-    <form typeof="submit" onclick="/script.js">
+    <form typeof="submit">
     <div class="login">
         <label for="uname">Username:</label>
-        <input type="text" name="uname" required><br>
+        <input id="username" type="text" name="uname" required><br>
         <label for="pword">Password:</label>
-        <input type="password" name="pword" ><br>
-        <button type="submit" onsubmit="/script.js">Submit</button>
+        <input id="password" type="password" name="pword" ><br>
+        <button>Submit</button>
     </div>
     </form>
 

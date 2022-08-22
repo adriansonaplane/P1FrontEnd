@@ -4,27 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <title>HALLOWEENTOWN Account Creation Page!</title>
+    <script src="../javascript/createAccount.js" defer></script>
 </head>
 <body>
 
   <div class="header">
   </div>
 
-  <form typeof="submit" onclick="/script.js">
+  <form typeof="submit">
   <div class="account">
     <label for="username">Username:</label>
-    <input type="text" name="username" required>
+    <input id="username" type="text" name="username" required>
     <br>
     <label for="password">Password:</label>
-    <input type="text" name="password" required>
+    <input id="password" type="text" name="password" required>
     <br>
     <label for="firstname">First Name:</label>
-    <input type="text" name="username" required>
+    <input id="firstname" type="text" name="username" required>
     <br>
     <label for="lastname">Last Name:</label>
-    <input type="text" name="lastname" required>
+    <input id="lastname" type="text" name="lastname" required>
     <br>
-    <button type="submit" onsubmit="/script.js">Create Account</button>
+    <button type="submit">Create Account</button>
   </div>
   </form>
 
