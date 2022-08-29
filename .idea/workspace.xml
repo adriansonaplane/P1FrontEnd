@@ -4,17 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8013c2f3-dd4a-4b2d-9963-2394ccb65180" name="Changes" comment="Finished Create Complaint Route">
-      <change afterPath="$PROJECT_DIR$/main/dev/ledesma/javascript/createAccount.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/dev/ledesma/javascript/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/dev/ledesma/javascript/viewMeetings.js" afterDir="false" />
+    <list default="true" id="8013c2f3-dd4a-4b2d-9963-2394ccb65180" name="Changes" comment="Added Login, Create Account, View Meeting Routes">
+      <change afterPath="$PROJECT_DIR$/main/dev/ledesma/html/viewComplaints.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/dev/ledesma/javascript/viewComplaints.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/dev/ledesma/html/account.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/dev/ledesma/html/account.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/dev/ledesma/html/complaints.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/dev/ledesma/html/complaints.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/dev/ledesma/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/dev/ledesma/html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/dev/ledesma/html/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/dev/ledesma/html/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/dev/ledesma/html/meetings.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/dev/ledesma/html/meetings.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/dev/ledesma/javascript/compcreate.js" beforeDir="false" afterPath="$PROJECT_DIR$/main/dev/ledesma/javascript/createComplaint.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/dev/ledesma/javascript/createAccount.js" beforeDir="false" afterPath="$PROJECT_DIR$/main/dev/ledesma/javascript/createAccount.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/dev/ledesma/javascript/createComplaint.js" beforeDir="false" afterPath="$PROJECT_DIR$/main/dev/ledesma/javascript/createComplaint.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/dev/ledesma/javascript/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/main/dev/ledesma/javascript/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/dev/ledesma/javascript/viewMeetings.js" beforeDir="false" afterPath="$PROJECT_DIR$/main/dev/ledesma/javascript/viewMeetings.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +24,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -42,15 +42,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/sama/Desktop/P1FrontEnd",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/sama/Desktop/P1FrontEnd&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -63,7 +64,13 @@
       <workItem from="1660778424685" duration="1445000" />
       <workItem from="1661115269277" duration="2237000" />
       <workItem from="1661119491019" duration="1020000" />
-      <workItem from="1661197022973" duration="3233000" />
+      <workItem from="1661197022973" duration="3308000" />
+      <workItem from="1661374708704" duration="207000" />
+      <workItem from="1661453130460" duration="7294000" />
+      <workItem from="1661460507557" duration="185000" />
+      <workItem from="1661537352863" duration="3448000" />
+      <workItem from="1661625430057" duration="1256000" />
+      <workItem from="1661745713093" duration="1544000" />
     </task>
     <task id="LOCAL-00001" summary="Finished Skeleton Code">
       <created>1660777571380</created>
@@ -93,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661120514495</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added Login, Create Account, View Meeting Routes">
+      <created>1661200690351</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1661200690351</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +129,7 @@
     <MESSAGE value="Added Styling" />
     <MESSAGE value="Added resource" />
     <MESSAGE value="Finished Create Complaint Route" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished Create Complaint Route" />
+    <MESSAGE value="Added Login, Create Account, View Meeting Routes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Login, Create Account, View Meeting Routes" />
   </component>
 </project>

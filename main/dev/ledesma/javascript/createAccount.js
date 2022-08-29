@@ -15,7 +15,7 @@ document.addEventListener("submit", async event =>{
     const user = {id:0, username, password, firstname, lastname};
     console.log(user);
 
-    const response = await fetch("http://localhost:8080/user",{
+    const response = await fetch("http://localhost:4040/user",{
         method:"POST",
         body: JSON.stringify(user),
         headers: {

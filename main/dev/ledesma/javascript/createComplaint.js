@@ -11,7 +11,7 @@ document.addEventListener("submit", async event =>{
 
     const complaint = {id:0, category, description};
     console.log(complaint);
-    const response = await fetch("http://localhost:8080/complaint",{
+    const response = await fetch("http://localhost:4040/complaint",{
         method:"POST",
         body: JSON.stringify(complaint),
         headers: {

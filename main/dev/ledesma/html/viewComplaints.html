@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="../css/styles.css">
+<head>
+  <meta charset="UTF-8">
+  <title>HALLOWEENTOWN Complaints!</title>
+  <script src="../javascript/viewComplaints.js" defer></script>
+</head>
+<body>
+
+<div class="header">
+</div>
+
+<div class="table">
+  <label for="status">
+  Sort By Status:
+  </label>
+  <select name="status" class="dropdown" id="status">
+    <option value="ALL">All</option>
+    <option value="HIGH">High</option>
+    <option value="LOW">Low</option>
+    <option value="IGNORED">Ignored</option>
+    <option value="UNREVIEWED">Unreviewed</option>
+  </select>
+
+  <table class="complaint" id="complaintBody">
+    <tr>
+      <th>Complaint ID</th>
+      <th>Category</th>
+      <th>Description</th>
+      <th>Status</th>
+      <th>Meeting ID</th>
+    </tr>
+  </table>
+</div>
+
+<br><br>
+
+<div class="update">
+  <form typeof="submit">
+    <label for="complaintId">Complaint Id: </label>
+    <input type="text" id="complaintId" placeholder="Id">
+    <label for="statusId">Status: </label>
+    <input type="text" id="statusId" placeholder="Status">
+    <label  for="meetingId">Meeting Id: </label>
+    <input type="text" id="meetingId" placeholder="Meeting ID">
+    <button type="submit">Submit</button>
+  </form>
+</div>
+
+<div class="footer">
+</div>
+
+</body>
+</html>

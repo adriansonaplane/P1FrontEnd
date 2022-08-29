@@ -1,7 +1,7 @@
 const meetingBody = document.getElementById("meetingBody");
 
 async function getMeetings(){
-    const httpResponse = await fetch("http://localhost:8080/meeting");
+    const httpResponse = await fetch("http://localhost:4040/meeting");
     const meetings = await httpResponse.json();
     return meetings;
 }
